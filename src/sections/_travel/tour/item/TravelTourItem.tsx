@@ -81,7 +81,7 @@ export default function TravelTourItem({ tour }: Props) {
           {location}
         </Typography>
 
-        <Link component={NextLink} href={paths.travel.tour} color="inherit">
+        <Link component={NextLink} href={paths.tour} color="inherit">
           <TextMaxLine variant="h6" persistent>
             {slug}
           </TextMaxLine>

@@ -52,7 +52,7 @@ export default function TravelTourDetailsReserveForm({ tour }: Props) {
   };
 
   const handleClickReserve = () => {
-    push(paths.travel.checkout);
+    push(paths.checkout);
   };
 
   return (

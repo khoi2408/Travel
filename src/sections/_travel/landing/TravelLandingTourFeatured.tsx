@@ -50,7 +50,7 @@ export default function TravelLandingTourFeatured({ tours }: Props) {
       <Box sx={{ textAlign: 'center' }}>
         <Button
           component={NextLink}
-          href={paths.travel.tours}
+          href={paths.tours}
           size="large"
           variant="outlined"
           color="inherit"

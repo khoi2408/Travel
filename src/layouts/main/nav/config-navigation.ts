@@ -110,11 +110,12 @@ export const pageLinks = [
 
 export const navConfig = [
   { title: 'Home', path: '/' },
-  { title: 'Components', path: paths.components.root },
-  {
-    title: 'Pages',
-    path: paths.pages,
-    children: [pageLinks[0], pageLinks[1], pageLinks[2], pageLinks[3], pageLinks[4], pageLinks[5]],
-  },
-  { title: 'Documentation', path: paths.docs },
+  { title: 'Tours', path: paths.tours },
+  { title: 'About', path: paths.about },
+  { title: 'Contact', path: paths.contact },
+  // {
+  //   title: 'Pages',
+  //   path: paths.pages,
+  //   children: [pageLinks[0], pageLinks[1], pageLinks[2], pageLinks[3], pageLinks[4], pageLinks[5]],
+  // },
 ];

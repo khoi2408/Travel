@@ -53,7 +53,7 @@ export default function TravelTourView() {
         <CustomBreadcrumbs
           links={[
             { name: 'Home', href: '/' },
-            { name: 'Tours', href: paths.travel.tours },
+            { name: 'Tours', href: paths.tours },
             { name: _mockTour.slug },
           ]}
           sx={{ mt: 3, mb: 5 }}
@@ -106,8 +106,6 @@ export default function TravelTourView() {
       </Container>
 
       <Divider sx={{ my: 10 }} />
-
-      <ReviewTravel />
 
       <TravelTourListSimilar tours={_tours.slice(-4)} />
 

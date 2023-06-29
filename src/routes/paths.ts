@@ -63,6 +63,12 @@ export const paths = {
       payment: `/e-commerce/account/payment`,
     },
   },
+  tours: '/tours',
+  tour: '/tour',
+  about: '/about',
+  contact: '/contact',
+  checkout: '/checkout',
+  orderCompleted: '/order-completed',
   // Auth
   loginCover: '/auth/login-cover',
   loginBackground: '/auth/login-background',

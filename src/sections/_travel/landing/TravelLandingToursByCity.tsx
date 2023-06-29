@@ -24,7 +24,7 @@ export default function TravelLandingToursByCity({ tours }: Props) {
   const viewAllBtn = (
     <Button
       component={NextLink}
-      href={paths.travel.tours}
+      href={paths.tours}
       color="inherit"
       endIcon={<Iconify icon="carbon:chevron-right" />}
     >
@@ -94,7 +94,7 @@ function TourItem({ tour }: TourItemProps) {
   const { coverImg, location } = tour;
 
   return (
-    <Link component={NextLink} href={paths.travel.tour} color="inherit" underline="none">
+    <Link component={NextLink} href={paths.tour} color="inherit" underline="none">
       <Paper
         variant="outlined"
         sx={{

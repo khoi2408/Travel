@@ -1,21 +1,15 @@
 // @mui
-import { alpha } from '@mui/material/styles';
 import { Box, Container } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 // _mock
-import { _tours, _blogTravelPosts, _testimonials } from 'src/_mock';
+import { _testimonials, _tours } from 'src/_mock';
 //
 import NewsletterTravel from '../../newsletter/travel';
-import TravelFilters from '../tour/filters';
 import TestimonialTravel from '../../testimonial/travel';
-import { BlogTravelLandingLatestPosts } from '../../blog/travel';
 import {
-  TravelLandingHero,
-  TravelLandingSummary,
-  TravelLandingIntroduce,
-  TravelLandingToursByCity,
-  TravelLandingTourFeatured,
-  TravelLandingFavoriteDestinations,
+  TravelLandingFavoriteDestinations, TravelLandingHero, TravelLandingIntroduce, TravelLandingSummary, TravelLandingTourFeatured, TravelLandingToursByCity
 } from '../landing';
+import TravelFilters from '../tour/filters';
 
 // ----------------------------------------------------------------------
 
@@ -57,8 +51,6 @@ export default function TravelLandingView() {
       <TravelLandingTourFeatured tours={_tours.slice(0, 4)} />
 
       <TravelLandingToursByCity tours={_tours.slice(0, 8)} />
-
-      <BlogTravelLandingLatestPosts posts={_blogTravelPosts.slice(2, 6)} />
 
       <TestimonialTravel testimonials={_testimonials} />
 
