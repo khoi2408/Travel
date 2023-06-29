@@ -19,22 +19,22 @@ export const pageLinks = [
       { title: 'Contact', path: paths.marketing.contact },
     ],
   },
-  {
-    order: '6',
-    subheader: 'Travel',
-    cover: '/assets/images/menu/menu_travel.jpg',
-    items: [
-      { title: 'Landing', path: paths.travel.landing },
-      { title: 'Tours', path: paths.travel.tours },
-      { title: 'Tour', path: paths.travel.tour },
-      { title: 'Checkout', path: paths.travel.checkout },
-      { title: 'Order Completed', path: paths.travel.orderCompleted },
-      { title: 'Blog Posts', path: paths.travel.posts },
-      { title: 'Blog Post', path: paths.travel.post },
-      { title: 'About', path: paths.travel.about },
-      { title: 'Contact', path: paths.travel.contact },
-    ],
-  },
+  // {
+  //   order: '6',
+  //   subheader: 'Travel',
+  //   cover: '/assets/images/menu/menu_travel.jpg',
+  //   items: [
+  //     { title: 'Landing', path: paths.travel.landing },
+  //     { title: 'Tours', path: paths.travel.tours },
+  //     { title: 'Tour', path: paths.travel.tour },
+  //     { title: 'Checkout', path: paths.travel.checkout },
+  //     { title: 'Order Completed', path: paths.travel.orderCompleted },
+  //     { title: 'Blog Posts', path: paths.travel.posts },
+  //     { title: 'Blog Post', path: paths.travel.post },
+  //     { title: 'About', path: paths.travel.about },
+  //     { title: 'Contact', path: paths.travel.contact },
+  //   ],
+  // },
   {
     order: '2',
     subheader: 'Career',
@@ -111,7 +111,6 @@ export const pageLinks = [
 export const navConfig = [
   { title: 'Home', path: '/' },
   { title: 'Tours', path: paths.tours },
-  { title: 'About', path: paths.about },
   { title: 'Contact', path: paths.contact },
   // {
   //   title: 'Pages',
