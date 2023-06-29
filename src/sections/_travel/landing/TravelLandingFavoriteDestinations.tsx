@@ -15,12 +15,11 @@ import TextMaxLine from 'src/components/text-max-line';
 // ----------------------------------------------------------------------
 
 const ROWS = [
-  'First Class Flights',
-  '5 Star Accommodations',
-  'Inclusive Packages',
-  'Latest Model Vehicles',
-  'Handpicked Hotels',
-  'Accesibility managment',
+  'Chuyến bay Hạng Nhất',
+  'Trọn gói',
+  'Mẫu Xe Mới Nhất',
+  'Khách sạn được lựa chọn cẩn thận',
+  'Khả năng tiếp cận',
 ];
 
 // ----------------------------------------------------------------------
@@ -59,7 +58,7 @@ export default function TravelLandingFavoriteDestinations({ tours }: Props) {
         justifyContent={{ md: 'space-between' }}
       >
         <Grid xs={12} md={4}>
-          <Typography variant="h2">Our Favorite Destinations</Typography>
+          <Typography variant="h2">Điểm đến yêu thích</Typography>
 
           <Typography sx={{ my: 3, color: 'text.secondary' }}>
             Since wire-frame renderings are relatively simple and fast to calculate, they are often

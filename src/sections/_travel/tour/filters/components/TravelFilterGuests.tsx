@@ -47,8 +47,8 @@ export default function TravelFilterGuests({
     <>
       <InputBase
         fullWidth
-        value={totalGuests > 0 ? `${totalGuests} Guests` : ''}
-        placeholder="Guests"
+        value={totalGuests > 0 ? `${totalGuests} Người` : ''}
+        placeholder="Số lượng"
         startAdornment={
           <InputAdornment position="start">
             <Iconify width={24} icon="carbon:events" sx={{ mr: 1, color: 'text.disabled' }} />
@@ -69,16 +69,16 @@ export default function TravelFilterGuests({
       >
         <Stack spacing={2.5} divider={<Divider sx={{ borderStyle: 'dashed' }} />}>
           <Input
-            title="Adults"
-            caption="Ages 13 or above"
+            title="Người lớn"
+            caption="Từ 13 tuổi trở lên"
             total={guests.adults}
             onDecrease={onDecreaseGuests}
             onIncrement={onIncrementGuests}
           />
 
           <Input
-            title="Children"
-            caption="Ages 2 - 12"
+            title="Trẻ em"
+            caption="Dưới 13 tuổi"
             total={guests.children}
             onDecrease={() => onDecreaseGuests('children')}
             onIncrement={() => onIncrementGuests('children')}

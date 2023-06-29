@@ -7,7 +7,7 @@ import { _testimonials, _tours } from 'src/_mock';
 import NewsletterTravel from '../../newsletter/travel';
 import TestimonialTravel from '../../testimonial/travel';
 import {
-  TravelLandingFavoriteDestinations, TravelLandingHero, TravelLandingIntroduce, TravelLandingSummary, TravelLandingTourFeatured, TravelLandingToursByCity
+  TravelLandingFavoriteDestinations, TravelLandingHero, TravelLandingIntroduce, TravelLandingSummary, TravelLandingTourFeatured, TravelLandingToursByTeamBuilding
 } from '../landing';
 import TravelFilters from '../tour/filters';
 
@@ -50,7 +50,7 @@ export default function TravelLandingView() {
 
       <TravelLandingTourFeatured tours={_tours.slice(0, 4)} />
 
-      <TravelLandingToursByCity tours={_tours.slice(0, 8)} />
+      <TravelLandingToursByTeamBuilding tours={_tours.slice(0, 8)} />
 
       <TestimonialTravel testimonials={_testimonials} />
 

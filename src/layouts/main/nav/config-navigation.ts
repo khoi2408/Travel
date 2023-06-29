@@ -29,7 +29,7 @@ export const pageLinks = [
 ];
 
 export const navConfig = [
-  { title: 'Home', path: '/' },
-  { title: 'Tours', path: paths.tours },
-  { title: 'Contact', path: paths.contact },
+  { title: 'Trang chủ', path: '/' },
+  { title: 'Địa điểm', path: paths.tours },
+  { title: 'Liên hệ', path: paths.contact },
 ];

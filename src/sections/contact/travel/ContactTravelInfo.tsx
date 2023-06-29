@@ -22,13 +22,10 @@ export default function ContactTravelInfo() {
           textAlign: { xs: 'center', md: 'left' },
         }}
       >
-        <Typography variant="h2">
-          We Work <br />
-          Worldwide.
-        </Typography>
+        <Typography variant="h2">Liên hệ</Typography>
 
         <Typography sx={{ color: 'text.secondary', mt: 3 }}>
-          {`We'd love to talk about how we can help you.`}
+          Liên hệ ngay để được trả lời nhanh và hiệu quả nhất các câu hỏi của bạn!
         </Typography>
       </Container>
 

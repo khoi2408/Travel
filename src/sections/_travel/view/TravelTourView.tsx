@@ -52,8 +52,8 @@ export default function TravelTourView() {
       <Container sx={{ overflow: 'hidden' }}>
         <CustomBreadcrumbs
           links={[
-            { name: 'Home', href: '/' },
-            { name: 'Tours', href: paths.tours },
+            { name: 'Trang chủ', href: '/' },
+            { name: 'Địa điểm', href: paths.tours },
             { name: _mockTour.slug },
           ]}
           sx={{ mt: 3, mb: 5 }}

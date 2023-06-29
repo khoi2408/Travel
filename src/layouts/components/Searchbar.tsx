@@ -67,7 +67,7 @@ export default function Searchbar({ sx }: SearchbarProps) {
               autoFocus
               fullWidth
               disableUnderline
-              placeholder="Search…"
+              placeholder="Tìm kiếm..."
               startAdornment={
                 <InputAdornment position="start">
                   <Iconify icon="carbon:search" sx={{ color: 'text.disabled' }} />

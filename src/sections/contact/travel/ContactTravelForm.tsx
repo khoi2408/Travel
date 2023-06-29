@@ -25,10 +25,10 @@ export default function ContactTravelForm() {
   const isMdUp = useResponsive('up', 'md');
 
   const TravelContactSchema = Yup.object().shape({
-    fullName: Yup.string().required('Full name is required'),
-    email: Yup.string().required('Email is required').email('That is not an email'),
-    subject: Yup.string().required('Subject is required'),
-    message: Yup.string().required('Message is required'),
+    fullName: Yup.string().required('Đây là trường bắt buộc'),
+    email: Yup.string().required('Đây là trường bắt buộc').email('Đây không phải là email'),
+    message: Yup.string().required('Đây là trường bắt buộc'),
+    phone: Yup.number().required('Đây là trường bắt buộc'),
   });
 
   const defaultValues = {
@@ -82,22 +82,22 @@ export default function ContactTravelForm() {
               textAlign: { xs: 'center', md: 'left' },
             }}
           >
-            <Typography variant="h3">Drop Us A Line</Typography>
+            <Typography variant="h3">Liên hệ</Typography>
 
             <Typography sx={{ color: 'text.secondary' }}>
-              We normally respond within 2 business days
+              Chúng tôi thường trả lời trong vòng 2 ngày
             </Typography>
           </Stack>
 
           <FormProvider methods={methods} onSubmit={handleSubmit(onSubmit)}>
             <Stack spacing={2.5} alignItems="flex-start">
-              <RHFTextField name="fullName" label="Full name" />
+              <RHFTextField name="fullName" label="Tên đầy đủ" />
+
+              <RHFTextField name="phone" label="Số điện thoại" type="number"/>
 
               <RHFTextField name="email" label="Email" />
 
-              <RHFTextField name="subject" label="Subject" />
-
-              <RHFTextField name="message" multiline rows={4} label="Message" sx={{ pb: 2.5 }} />
+              <RHFTextField name="message" multiline rows={4} label="Nội dung" sx={{ pb: 2.5 }} />
 
               <LoadingButton
                 size="large"
@@ -109,7 +109,7 @@ export default function ContactTravelForm() {
                   alignSelf: { xs: 'center', md: 'unset' },
                 }}
               >
-                Send Request
+                Gửi
               </LoadingButton>
             </Stack>
           </FormProvider>

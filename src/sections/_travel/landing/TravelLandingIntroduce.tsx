@@ -13,17 +13,17 @@ import SvgColor from 'src/components/svg-color';
 
 const SUMMARY = [
   {
-    title: 'Professional Tour Guides',
+    title: 'Hướng dẫn viên du lịch chuyên nghiệp',
     description: 'Nunc nonummy metus. Donec elit libero',
     icon: '/assets/icons/ic_popularity.svg',
   },
   {
-    title: 'Customer Satisfaction',
+    title: 'Sự hài lòng của khách hàng',
     description: 'Nunc nonummy metus. Donec elit libero',
     icon: '/assets/icons/ic_reputation.svg',
   },
   {
-    title: 'Secure Payment',
+    title: 'Thanh toán an toàn',
     description: 'Nunc nonummy metus. Donec elit libero',
     icon: '/assets/icons/ic_secure_payment.svg',
   },

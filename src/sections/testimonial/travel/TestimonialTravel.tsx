@@ -61,7 +61,7 @@ export default function TestimonialTravel({ testimonials }: Props) {
               textAlign: { xs: 'center', md: 'left' },
             }}
           >
-            What Our Customer Say
+            Ý kiến khách hàng
           </Typography>
 
           <Carousel ref={carouselRef} {...carouselSettings}>

@@ -18,7 +18,7 @@ type Props = {
   tours: ITourProps[];
 };
 
-export default function TravelLandingToursByCity({ tours }: Props) {
+export default function TravelLandingToursByTeamBuilding({ tours }: Props) {
   const isMdUp = useResponsive('up', 'md');
 
   const viewAllBtn = (
@@ -28,7 +28,7 @@ export default function TravelLandingToursByCity({ tours }: Props) {
       color="inherit"
       endIcon={<Iconify icon="carbon:chevron-right" />}
     >
-      View All
+      Xem thêm
     </Button>
   );
 
@@ -49,9 +49,9 @@ export default function TravelLandingToursByCity({ tours }: Props) {
         }}
       >
         <Stack spacing={3}>
-          <Typography variant="h2">Tours By City</Typography>
+          <Typography variant="h2">Tours Team Building</Typography>
           <Typography sx={{ color: 'text.secondary' }}>
-            {`Our Featured Tours can help you find the trip that's perfect for you!`}
+            Tours Team Building: Tập thể gắn kết
           </Typography>
         </Stack>
 
@@ -117,7 +117,7 @@ function TourItem({ tour }: TourItemProps) {
             </TextMaxLine>
 
             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-              196 Place
+              16 Địa điểm
             </Typography>
           </Stack>
         </Stack>

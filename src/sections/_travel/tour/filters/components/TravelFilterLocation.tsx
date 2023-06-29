@@ -14,13 +14,14 @@ export default function TravelFilterLocation() {
       sx={{ width: 1 }}
       popupIcon={null}
       options={countries}
+      disabled
       getOptionLabel={(option) => option.label}
       renderInput={(params) => (
         <InputBase
           {...params.InputProps}
           inputProps={params.inputProps}
           fullWidth
-          placeholder="Where we go?"
+          placeholder="Phú Yên, Việt Nam"
           startAdornment={
             <InputAdornment position="start">
               <Iconify width={24} icon="carbon:location" sx={{ color: 'text.disabled', mr: 1 }} />

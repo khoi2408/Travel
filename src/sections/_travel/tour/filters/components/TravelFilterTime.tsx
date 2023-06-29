@@ -41,7 +41,7 @@ export default function TravelFilterTime({ departureDay, onChangeDepartureDay, s
             inputProps={{
               ...inputProps,
               ...(inputOther as any),
-              placeholder: 'Departure day',
+              placeholder: 'Thời gian',
             }}
             startAdornment={
               <InputAdornment position="start">

@@ -23,10 +23,10 @@ export default function TravelLandingTourFeatured({ tours }: Props) {
       }}
     >
       <Stack spacing={3} sx={{ textAlign: 'center' }}>
-        <Typography variant="h3">Featured Tours</Typography>
+        <Typography variant="h3">Tour nổi bật</Typography>
 
         <Typography sx={{ color: 'text.secondary' }}>
-          {`Our Featured Tours can help you find the trip that's perfect for you!`}
+          Các tour nổi bật của chúng tôi có thể giúp bạn tìm thấy chuyến đi hoàn hảo cho mình!
         </Typography>
       </Stack>
 
@@ -55,7 +55,7 @@ export default function TravelLandingTourFeatured({ tours }: Props) {
           variant="outlined"
           color="inherit"
         >
-          View All Tours
+          Xem thêm
         </Button>
       </Box>
     </Container>

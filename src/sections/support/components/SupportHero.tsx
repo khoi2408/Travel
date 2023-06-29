@@ -33,7 +33,7 @@ export default function SupportHero() {
       <TextField
         fullWidth
         hiddenLabel
-        placeholder="Search..."
+        placeholder="Tìm kiếm..."
         InputProps={{
           startAdornment: (
             <InputAdornment position="start">

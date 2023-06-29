@@ -10,23 +10,23 @@ import CountUp from 'src/components/count-up';
 
 const SUMMARY = [
   {
-    total: 130,
-    description: 'Air tickets sold',
+    total: 80,
+    description: 'Vé máy bay đã bán',
     icon: '/assets/icons/travel/ic_travel_tickets.svg',
   },
   {
-    total: 196,
-    description: 'Tours booked',
+    total: 96,
+    description: 'Tour đã đặt',
     icon: '/assets/icons/travel/ic_travel_booking.svg',
   },
   {
-    total: 10670,
-    description: 'Site visitors',
+    total: 1670,
+    description: 'Số lượng truy cập trang web',
     icon: '/assets/icons/travel/ic_travel_site_visitors.svg',
   },
   {
-    total: 877,
-    description: 'Verified hotels',
+    total: 27,
+    description: 'Khách sạn đã xác minh',
     icon: '/assets/icons/travel/ic_travel_verified_hotels.svg',
   },
 ];
@@ -49,7 +49,7 @@ export default function TravelLandingSummary() {
           mb: { xs: 8, md: 10 },
         }}
       >
-        <Typography variant="h2">Fastest Way to Book over 450 Great Tours</Typography>
+        <Typography variant="h2">Đặt nhanh với hơn 450 Tour tuyệt vời</Typography>
 
         <Typography sx={{ color: 'text.secondary' }}>
           Since wire-frame renderings are relatively simple and fast to calculate, they are often

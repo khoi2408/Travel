@@ -50,17 +50,17 @@ export default function NewsletterTravel() {
                 textAlign: { xs: 'center', md: 'left' },
               }}
             >
-              <Typography variant="h2">Newsletter</Typography>
+              <Typography variant="h2">Đăng ký</Typography>
 
               <Typography>
-                Sign up now to receive hot special offers
-                <br /> and information about the best tours!
+                Đăng ký ngay để nhận được những ưu đãi hấp dẫn và thông tin về các tour du lịch tốt
+                nhất!
               </Typography>
 
               <TextField
                 fullWidth
                 hiddenLabel
-                placeholder="Enter your email"
+                placeholder="Nhập email"
                 InputProps={{
                   endAdornment: (
                     <InputAdornment position="end">

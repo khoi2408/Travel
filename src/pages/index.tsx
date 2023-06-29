@@ -16,7 +16,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>The starting point for your next project | ZONE UI</title>
+        <title>ĐỊA ĐIỂM DU LỊCH Ở PHÚ YÊN | WinG</title>
       </Head>
 
       {/* <HomeView /> */}

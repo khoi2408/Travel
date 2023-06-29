@@ -189,7 +189,7 @@ function CarouselItem({ tour }: CarouselItemProps) {
         </Stack>
 
         <Button variant="contained" size="large">
-          Book Now
+          Đặt ngay
         </Button>
       </Stack>
 
