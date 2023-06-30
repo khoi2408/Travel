@@ -61,8 +61,7 @@ export default function TravelLandingFavoriteDestinations({ tours }: Props) {
           <Typography variant="h2">Điểm đến yêu thích</Typography>
 
           <Typography sx={{ my: 3, color: 'text.secondary' }}>
-            Since wire-frame renderings are relatively simple and fast to calculate, they are often
-            used in cases
+            Điểm đến hot nhất được đề xuất bởi chúng tôi
           </Typography>
 
           <Stack spacing={2}>

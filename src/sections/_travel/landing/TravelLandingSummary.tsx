@@ -52,8 +52,7 @@ export default function TravelLandingSummary() {
         <Typography variant="h2">Đặt nhanh với hơn 450 Tour tuyệt vời</Typography>
 
         <Typography sx={{ color: 'text.secondary' }}>
-          Since wire-frame renderings are relatively simple and fast to calculate, they are often
-          used in cases
+          Nhanh tay đặt vé để nhận thêm ưu đãi 15% khi đặt phòng khách sạn và vé máy bay
         </Typography>
       </Stack>
 

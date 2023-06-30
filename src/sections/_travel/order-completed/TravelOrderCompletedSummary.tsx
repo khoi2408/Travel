@@ -18,21 +18,21 @@ export default function TravelOrderCompletedSummary() {
         border: (theme) => `dashed 1px ${theme.palette.divider}`,
       }}
     >
-      <Typography variant="h5">Booking Details</Typography>
+      <Typography variant="h5">Chi tiết đặt phòng</Typography>
 
-      <LineItem icon="carbon:calendar" label="Departure day" value={fDate(new Date())} />
+      <LineItem icon="carbon:calendar" label="Thời gian" value={fDate(new Date())} />
 
-      <LineItem icon="carbon:events" label="Guests" value="2 guest" />
+      <LineItem icon="carbon:events" label="Số lượng" value="2 người" />
 
       <Divider sx={{ borderStyle: 'dashed' }} />
 
-      <LineItem icon="carbon:cube" label="Booking code" value="KU_H8SDM" />
+      <LineItem icon="carbon:cube" label="Mã đặt" value="KU_H8SDM" />
 
-      <LineItem icon="carbon:calendar" label="Booking day" value={fDate(new Date())} />
+      <LineItem icon="carbon:calendar" label="Ngày đặt" value={fDate(new Date())} />
 
-      <LineItem icon="carbon:receipt" label="Total" value={fCurrency(1112)} />
+      <LineItem icon="carbon:receipt" label="Tổng" value={fCurrency(1112)} />
 
-      <LineItem icon="carbon:purchase" label="Payment method" value="Paypal" />
+      <LineItem icon="carbon:purchase" label="Phương thức thanh toán" value="Paypal" />
     </Stack>
   );
 }

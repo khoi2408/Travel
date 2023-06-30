@@ -34,7 +34,7 @@ export const _testimonials = [...Array(8)].map((_, index) => ({
   postDate: _mock.time(index),
   rating: 5,
   review:
-    'Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach.',
+    'Dịch vụ tốt, chất lượng hoàn hảo. Giá cả hợp lý, phù hợp với mọi đối tượng. Mình sẽ recommend cho bạn bè và người thân.',
 }));
 
 // ----------------------------------------------------------------------

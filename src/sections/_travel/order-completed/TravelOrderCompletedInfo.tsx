@@ -43,7 +43,7 @@ export default function TravelOrderCompletedInfo({ tour }: Props) {
         <Avatar src={tourGuide?.picture} />
         <div>
           <Typography variant="body2" sx={{ color: 'text.disabled' }}>
-            Tour guide by
+            Hướng dẫn viên
           </Typography>
           <Typography variant="subtitle2">{tourGuide?.name}</Typography>
         </div>

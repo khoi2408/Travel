@@ -44,14 +44,14 @@ export const fullAddress = [
 ];
 
 export const country = [
-  'Kenya',
-  'Madagascar',
-  'Netherlands Antilles',
-  'Azerbaijan',
-  'Aruba',
-  'Comoros',
-  'Sierra Leone',
-  'Bermuda',
+  'Gành Đá Đĩa',
+  'Hòn Yến',
+  'Bãi Xép',
+  'Hải đăng Mũi Điện',
+  'Bãi Môn',
+  'Đầm Ô Loan',
+  'Vịnh Vũng Rô',
+  'Đảo Nhất Tự Sơn',
   'Italy',
   'Iran',
   'Denmark',

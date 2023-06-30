@@ -39,7 +39,7 @@ export const _tours = [...Array(12)].map((_, index) => ({
   availableEnd: add(new Date(), { months: 4 }),
   location: _mock.address.country(index),
   continent: CONTINENTS[index],
-  duration: '3 days 2 nights',
+  duration: '3 ngày 2 đêm',
   price: (index % 2 && 159.99) || 269.99,
   priceSale: (index === 2 && 89.99) || (index === 5 && 69.99) || 0,
   reviews: 345,

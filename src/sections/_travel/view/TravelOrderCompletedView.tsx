@@ -35,7 +35,7 @@ export default function TravelOrderCompletedView() {
       )}
 
       <Stack spacing={5}>
-        <Typography variant="h2">Completed 🎉</Typography>
+        <Typography variant="h2">Đặt thành công 🎉</Typography>
 
         <TravelOrderCompletedInfo tour={_mockTour} />
 
@@ -50,17 +50,9 @@ export default function TravelOrderCompletedView() {
             color="inherit"
             startIcon={<Iconify icon="carbon:chevron-left" />}
           >
-            Back Home
+            Về trang chủ
           </Button>
 
-          <Button
-            variant="contained"
-            size="large"
-            color="inherit"
-            startIcon={<Iconify icon="carbon:package" />}
-          >
-            Download Invoice
-          </Button>
         </Stack>
       </Stack>
     </Container>
