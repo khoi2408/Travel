@@ -35,7 +35,7 @@ export default function SettingsDrawer() {
       >
         <Stack direction="row" alignItems="center" sx={{ py: 2, px: 3 }}>
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            Settings
+            Cài đặt
           </Typography>
 
           <Tooltip title="Reset">

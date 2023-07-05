@@ -39,22 +39,22 @@ export default function TravelCheckoutView() {
 
   const TravelCheckoutSchema = Yup.object().shape({
     billingAddress: Yup.object().shape({
-      firstName: Yup.string().required('First name is required'),
-      lastName: Yup.string().required('Last name is required'),
-      fullAddress: Yup.string().required('Full address is required'),
+      fullName: Yup.string().required('Đây là trường bắt buộc'),
+      phone: Yup.string().required('Đây là trường bắt buộc'),
+      fullAddress: Yup.string().required('Đây là trường bắt buộc'),
     }),
   });
 
   const defaultValues = {
     billingAddress: {
-      firstName: '',
-      lastName: '',
+      fullName: '',
+      phone: '',
       fullAddress: '',
       fullAddress2: '',
     },
     shippingAddress: {
-      firstName: '',
-      lastName: '',
+      fullName: '',
+      phone: '',
       fullAddress: '',
       fullAddress2: '',
     },
@@ -124,14 +124,14 @@ export default function TravelCheckoutView() {
       }}
     >
       <Typography variant="h2" sx={{ mb: 5 }}>
-        Confirm and Pay
+        Xác nhận và thanh toán
       </Typography>
 
       <FormProvider methods={methods} onSubmit={handleSubmit(onSubmit)}>
         <Grid container spacing={{ xs: 5, md: 8 }}>
           <Grid xs={12} md={7}>
             <Stack>
-              <StepLabel title="Shipping Information" step="1" />
+              <StepLabel title="Thông tin vận chuyển" step="1" />
 
               <TravelCheckOutShippingForm
                 sameBilling={sameBilling}
@@ -140,7 +140,7 @@ export default function TravelCheckoutView() {
 
               <Divider sx={{ my: 5, borderStyle: 'dashed' }} />
 
-              <StepLabel title="Payment Methods" step="2" />
+              <StepLabel title="Phương thức thanh toán" step="2" />
 
               <TravelCheckOutPaymentForm />
             </Stack>

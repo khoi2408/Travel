@@ -3,7 +3,7 @@
 
 export const jobContent = `
 <h5 id="one">Job Description</h5>
-<p>Occaecati est et illo quibusdam accusamus qui. Incidunt aut et molestiae ut facere aut. Est quidem iusto praesentium excepturi harum nihil tenetur facilis. Ut omnis voluptates nihil accusantium doloribus eaque debitis.</p>
+<p>Gành Đá Dĩa: như một tổ ong khổng lồ với những khối đá hình lăng trụ xếp chồng lên nhau ngay ngắn vươn mình ra biển khơi.</p>
 <h5 id="two">Key Responsibilities</h5>
 <ul>
   <li>Working with agency for design drawing detail, quotation and local production.</li>
@@ -86,18 +86,18 @@ export const jobCategories = [
 // ----------------------------------------------------------------------
 
 export const tourName = [
-  'Italian Delights - 12 Days',
-  'Best of Sicily - 8 Days (Small Group Tour)',
-  'Gourmet Journey of Emilia Romagna - 7 Days',
-  'Adventure in Iceland',
-  'Fire and Ice (6 Days)',
-  'Iceland Northern Lights & Golden Circle — Plus',
-  'New Tour Egypt (2 for 1) Tour in 5* Hotel & Nile Cruise',
-  'Egypt Luxury Guided Tour W/Nile Cruise & Air',
-  'London with Day trip to Paris',
-  'Great Britain Christmas - 7 Days',
-  'Essential Turkey Small Group',
-  'Istanbul to Cappadocia',
+  'Gành Đá Đĩa - Hành trình khám phá đất Phú',
+  'Hòn Yến - Chiêm ngưỡng rạn san hô tuyệt đẹp',
+  'Tour Bãi Xép 1 ngày',
+  'Hải đăng Mũi Điện - Chinh phục Hải đăng mũi điện',
+  'Cắm trại Bãi Môn – Đón bình minh Mũi Điện 1 ngày 1 đêm từ Tuy Hòa',
+  'Chèo thuyền Đầm Ô Loan',
+  'Tour Phú Yên - Vũng Rô Tết Nguyên Đán',
+  'Đảo Nhất Tự Sơn 1 ngày: Con đường giữa biển tại Phú Yên',
+  'Nơi cất giữ nền văn hóa Chăm đặc sắc',
+  'Tháp Nghinh Phong công trình độc đáo tại Phú Yên',
+  'Tour Hòn Nưa: Thiên đường biển đảo Phú Yên',
+  'Chinh phục núi Đá Bia',
   '6 Nights in Greece',
   'Death Valley Day Tour from Las Vegas- Small Groups Tour',
   'National Parks Winter Tour',
@@ -173,12 +173,12 @@ export const blogTitle = [
 // ----------------------------------------------------------------------
 
 export const sentence = [
-  'Assumenda nam repudiandae rerum fugiat vel maxime.',
-  'Quis veniam aut saepe aliquid nulla.',
-  'Reprehenderit ut voluptas sapiente ratione nostrum est.',
-  'Error ut sit vel molestias velit.',
-  'Quo quia sit nihil nemo doloremque et.',
-  'Autem doloribus harum vero laborum.',
+  'Vẻ đẹp đích thực của tạo hóa.',
+  'Là 1 trong 5 ghềnh đá nổi tiếng nhất thế giới.',
+  'Điểm check-in sống ảo đẹp mê ly.',
+  'Đến một nơi khám phá được nhiều nơi.',
+  'Món ăn đặc sản, món ăn làm quà siêu hấp dẫn.',
+  'Nơi dành cho chuyến picnic kiểu mới.',
   'Tempora officiis consequuntur architecto nostrum autem nam adipisci.',
   'Voluptas sunt magni adipisci praesentium saepe.',
   'Ea architecto quas voluptates voluptas earum illo est vel rem.',
@@ -218,10 +218,10 @@ export const sentence = [
 // ----------------------------------------------------------------------
 
 export const description = [
-  'Occaecati est et illo quibusdam accusamus qui. Incidunt aut et molestiae ut facere aut. Est quidem iusto praesentium excepturi harum nihil tenetur facilis. Ut omnis voluptates nihil accusantium doloribus eaque debitis.',
-  'Atque eaque ducimus minima distinctio velit. Laborum et veniam officiis. Delectus ex saepe hic id laboriosam officia. Odit nostrum qui illum saepe debitis ullam. Laudantium beatae modi fugit ut. Dolores consequatur beatae nihil voluptates rem maiores.',
-  'Rerum eius velit dolores. Explicabo ad nemo quibusdam. Voluptatem eum suscipit et ipsum et consequatur aperiam quia. Rerum nulla sequi recusandae illum velit quia quas. Et error laborum maiores cupiditate occaecati.',
-  'Et non omnis qui. Qui sunt deserunt dolorem aut velit cumque adipisci aut enim. Nihil quis quisquam nesciunt dicta nobis ab aperiam dolorem repellat. Voluptates non blanditiis. Error et tenetur iste soluta cupiditate ratione perspiciatis et. Quibusdam aliquid nam sunt et quisquam non esse.',
+  'Tour Phú Yên 3 ngày 2 đêm, chúng tôi sẽ đưa Quý khách khám phá hầu hết tất cả các điểm du lịch đẹp tại Phú Yên của gói Gành Đá Đĩa như: Gành Đá Dĩa, Nhà Thờ Mằng Lăng, Bãi Xép Ghềnh Ông, Hải Đăng Mũi Điện hay Tháp Nhạn v.v…',
+  'ĐÓN SÂN BAY - CITY TOUR TUY HÒA (Ăn trưa, tối)',
+  'HẢI ĐĂNG MŨI ĐIỆN - VỊNH VŨNG RÔ - HÒN NƯA - LẶN NGẮM SAN HÔ (Ăn sáng, trưa, tối)',
+  'GÀNH ĐÁ DĨA - NHÀ THỜ MẰNG LĂNG - BÃI XÉP - TIỄN SÂN BAY (Ăn sáng, trưa)',
   'Nihil ea sunt facilis praesentium atque. Ab animi alias sequi molestias aut velit ea. Sed possimus eos. Et est aliquid est voluptatem.',
   'Non rerum modi. Accusamus voluptatem odit nihil in. Quidem et iusto numquam veniam culpa aperiam odio aut enim. Quae vel dolores. Pariatur est culpa veritatis aut dolorem.',
   'Est enim et sit non impedit aperiam cumque animi. Aut eius impedit saepe blanditiis. Totam molestias magnam minima fugiat.',

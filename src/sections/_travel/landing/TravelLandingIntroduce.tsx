@@ -56,10 +56,10 @@ export default function TravelLandingIntroduce() {
             textAlign: { xs: 'center', md: 'unset' },
           }}
         >
-          <Typography variant="h2">Explore A Different Way To Travel</Typography>
+          <Typography variant="h2">Khám phá là một cách khác để du lịch</Typography>
 
           <Typography sx={{ color: 'text.secondary' }}>
-            Cras ultricies mi eu turpis hendrerit fringilla. Nulla consequat massa quis enim.
+            Đích đến của chúng ta không phải là một vùng đất, mà là một cách nhìn mới.
           </Typography>
         </Stack>
       </Container>
@@ -90,11 +90,11 @@ export default function TravelLandingIntroduce() {
           }}
         >
           <Typography variant="overline" sx={{ color: 'text.disabled' }}>
-            Device
+            Pierre Bernardo
           </Typography>
 
           <Typography variant="h4" sx={{ my: 3 }}>
-            The More Important the Work
+            Đi chính là để tiến hóa
           </Typography>
 
           <Stack
@@ -108,7 +108,7 @@ export default function TravelLandingIntroduce() {
               '&:hover': { opacity: 0.72 },
             }}
           >
-            <Iconify icon="carbon:play" width={24} sx={{ mr: 1 }} /> Watch Video
+            <Iconify icon="carbon:play" width={24} sx={{ mr: 1 }} /> Xem Video
           </Stack>
         </Card>
 

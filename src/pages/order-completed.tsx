@@ -15,7 +15,7 @@ export default function TravelOrderCompletedPage() {
   return (
     <>
       <Head>
-        <title>Order Completed | ZONE UI</title>
+        <title>Đặt thành công | WinG</title>
       </Head>
 
       <TravelOrderCompletedView />

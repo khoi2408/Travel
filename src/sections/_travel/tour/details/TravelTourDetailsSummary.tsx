@@ -32,7 +32,7 @@ export default function TravelTourDetailsSummary({ tour }: Props) {
       {/* -- Tour Overview -- */}
       <div>
         <Typography variant="h5" sx={{ mb: 3 }}>
-          Tour Overview
+          Tổng quan
         </Typography>
         <Box
           sx={{
@@ -47,18 +47,18 @@ export default function TravelTourDetailsSummary({ tour }: Props) {
         >
           <OverviewItem
             icon="carbon:calendar"
-            label="Available"
+            label="Có hiệu lực"
             text={`${fDate(availableStart, 'dd/MM/yyyy')} - ${fDate(availableEnd, 'dd/MM/yyyy')}`}
           />
-          <OverviewItem icon="carbon:user" label="Contact name" text={tourGuide?.name} />
-          <OverviewItem icon="carbon:location" label="Location" text={location} />
+          <OverviewItem icon="carbon:user" label="Tên liên lạc" text={tourGuide?.name} />
+          <OverviewItem icon="carbon:location" label="Địa danh" text={location} />
           <OverviewItem
             icon="carbon:mobile"
-            label="Contact phone"
+            label="Số điện thoại liên hệ"
             text={tourGuide?.phoneNumber || ''}
           />
-          <OverviewItem icon="carbon:time" label="Durations" text={duration} />
-          <OverviewItem icon="carbon:translate" label="Languages" text={languages.join(', ')} />
+          <OverviewItem icon="carbon:time" label="Thời hạn" text={duration} />
+          <OverviewItem icon="carbon:translate" label="Ngôn ngữ" text={languages.join(', ')} />
         </Box>
       </div>
 
@@ -67,7 +67,7 @@ export default function TravelTourDetailsSummary({ tour }: Props) {
       {/* -- Tour Description -- */}
       <div>
         <Typography variant="h5" paragraph>
-          Tour Description
+          Mô tả chuyến đi
         </Typography>
         <Typography>{description}</Typography>
       </div>
@@ -75,7 +75,7 @@ export default function TravelTourDetailsSummary({ tour }: Props) {
       {/* -- Tour Highlights -- */}
       <div>
         <Typography variant="h5" paragraph>
-          Tour Highlights
+          Điểm nổi bật
         </Typography>
 
         <ul>
@@ -88,7 +88,7 @@ export default function TravelTourDetailsSummary({ tour }: Props) {
       {/* -- Tour Includes -- */}
       <div>
         <Typography variant="h5" paragraph>
-          Tour Includes
+          Tour bao gồm
         </Typography>
 
         <Box
@@ -127,7 +127,7 @@ export default function TravelTourDetailsSummary({ tour }: Props) {
 
       {/* -- Tour Program -- */}
       <Stack spacing={2}>
-        <Typography variant="h5">Tour Program</Typography>
+        <Typography variant="h5">Lịch trình</Typography>
         {program.map((content) => (
           <HighlightItem key={content.label} label={content.label} text={content.text} />
         ))}

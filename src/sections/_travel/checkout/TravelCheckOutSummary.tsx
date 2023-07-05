@@ -86,7 +86,7 @@ export default function TravelCheckOutSummary({
 
             <div>
               <Typography variant="body2" sx={{ color: 'text.disabled' }}>
-                Tour guide by
+                Hướng dẫn viên
               </Typography>
 
               <Typography variant="subtitle2">{tourGuide.name}</Typography>
@@ -110,7 +110,7 @@ export default function TravelCheckOutSummary({
             <Iconify icon="carbon:events" width={24} />
 
             <Stack spacing={0.5}>
-              <Typography variant="caption">Departure day</Typography>
+              <Typography variant="caption">Số lượng</Typography>
               <TravelFilterGuests
                 startAdornment={null}
                 guests={guests}
@@ -126,7 +126,7 @@ export default function TravelCheckOutSummary({
           <Stack direction="row" spacing={1.5} sx={{ width: 1 }}>
             <Iconify icon="carbon:calendar" width={24} />
             <Stack spacing={0.5}>
-              <Typography variant="caption">Guests</Typography>
+              <Typography variant="caption">Thời gian</Typography>
               <TravelFilterTime
                 departureDay={departureDay}
                 onChangeDepartureDay={onChangeDepartureDay}
@@ -148,14 +148,14 @@ export default function TravelCheckOutSummary({
           sx={{ mt: 3, mb: 2 }}
         >
           <Typography variant="body2" sx={{ color: 'text.disabled' }}>
-            Service charge
+            Phí dịch vụ
           </Typography>
           <Typography variant="body2">{fCurrency(price)}</Typography>
         </Stack>
 
         <Stack spacing={1} direction="row" alignItems="center" justifyContent="space-between">
           <Typography variant="body2" sx={{ color: 'text.disabled' }}>
-            Discount
+            Giảm giá
           </Typography>
           <Typography variant="body2">-</Typography>
         </Stack>
@@ -176,7 +176,7 @@ export default function TravelCheckOutSummary({
           color="inherit"
           loading={isSubmitting}
         >
-          Complete Booking
+          Hoàn thành đặt phòng
         </LoadingButton>
       </Stack>
     </Card>

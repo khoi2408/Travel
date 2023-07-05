@@ -104,14 +104,14 @@ export default function TravelTourDetailsReserveForm({ tour }: Props) {
 
         <Stack spacing={1} direction="row" alignItems="center" justifyContent="space-between">
           <Typography variant="body2" sx={{ color: 'text.disabled' }}>
-            Service charge
+            Phí dịch vụ
           </Typography>
           <Typography variant="body2">{fCurrency(priceSale) || '-'}</Typography>
         </Stack>
 
         <Stack spacing={1} direction="row" alignItems="center" justifyContent="space-between">
           <Typography variant="body2" sx={{ color: 'text.disabled' }}>
-            Discount
+            Giảm giá
           </Typography>
           <Typography variant="body2"> - </Typography>
         </Stack>
@@ -121,12 +121,12 @@ export default function TravelTourDetailsReserveForm({ tour }: Props) {
 
       <Stack spacing={3} sx={{ p: 3 }}>
         <Stack spacing={1} direction="row" alignItems="center" justifyContent="space-between">
-          <Typography variant="h5">Total</Typography>
+          <Typography variant="h5">Tổng cộng</Typography>
           <Typography variant="h5">{fCurrency(priceSale)}</Typography>
         </Stack>
 
         <Button size="large" variant="contained" color="inherit" onClick={handleClickReserve}>
-          Reserve
+          Đặt ngay
         </Button>
       </Stack>
     </Card>

@@ -3,7 +3,6 @@ import Head from 'next/head';
 // layouts
 import MainLayout from 'src/layouts/main';
 // sections
-import HomeView from 'src/sections/_home/view';
 import TravelLandingView from 'src/sections/_travel/view/TravelLandingView';
 
 // ----------------------------------------------------------------------
@@ -16,10 +15,9 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>ĐỊA ĐIỂM DU LỊCH Ở PHÚ YÊN | WinG</title>
+        <title>Địa điểm du lịch ở Phú Yên | WinG</title>
       </Head>
 
-      {/* <HomeView /> */}
       <TravelLandingView />
 
     </>

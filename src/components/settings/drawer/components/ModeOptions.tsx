@@ -34,7 +34,7 @@ export default function ModeOptions() {
         },
       }}
     >
-      <Typography variant="subtitle2">Mode</Typography>
+      <Typography variant="subtitle2">Chế độ</Typography>
       <Iconify width={28} icon={isLight ? 'carbon:asleep' : 'carbon:asleep-filled'} />
     </ToggleButton>
   );

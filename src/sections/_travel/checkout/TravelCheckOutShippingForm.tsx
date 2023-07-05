@@ -15,16 +15,16 @@ export default function TravelCheckOutShippingForm({ sameBilling, onChangeSameBi
     <Stack spacing={5}>
       <div>
         <Typography variant="overline" sx={{ color: 'text.secondary', mb: 3, display: 'block' }}>
-          Billing Address
+          Địa chỉ thanh toán
         </Typography>
 
         <Stack spacing={2.5}>
           <Stack spacing={{ xs: 2.5, md: 2 }} direction={{ xs: 'column', md: 'row' }}>
-            <RHFTextField name="billingAddress.firstName" label="First Name" />
-            <RHFTextField name="billingAddress.lastName" label="Last Name" />
+            <RHFTextField name="billingAddress.fullName" label="Tên đầy đủ" />
+            <RHFTextField name="billingAddress.phone" label="Số điện thoại" type="number"/>
           </Stack>
-          <RHFTextField name="billingAddress.fullAddress" label="Full Address" />
-          <RHFTextField name="billingAddress.fullAddress2" label="Full Address2" />
+          <RHFTextField name="billingAddress.fullAddress" label="Địa chỉ 1" />
+          <RHFTextField name="billingAddress.fullAddress2" label="Địa chỉ 2" />
         </Stack>
       </div>
 
@@ -36,11 +36,11 @@ export default function TravelCheckOutShippingForm({ sameBilling, onChangeSameBi
           alignItems={{ xs: 'flex-start', md: 'center' }}
         >
           <Typography variant="overline" sx={{ color: 'text.secondary' }}>
-            Shipping Address
+            Địa chỉ giao hàng
           </Typography>
           <FormControlLabel
             control={<Switch checked={sameBilling} onChange={onChangeSameBilling} />}
-            label="Same as Billing Address"
+            label="Tương tự như Địa chỉ thanh toán"
             labelPlacement="start"
           />
         </Stack>
@@ -54,11 +54,11 @@ export default function TravelCheckOutShippingForm({ sameBilling, onChangeSameBi
         >
           <Stack spacing={2.5}>
             <Stack spacing={{ xs: 2.5, md: 2 }} direction={{ xs: 'column', md: 'row' }}>
-              <RHFTextField name="shippingAddress.firstName" label="First Name" />
-              <RHFTextField name="shippingAddress.lastName" label="Last Name" />
+              <RHFTextField name="shippingAddress.fullName" label="Tên đầy đủ" />
+              <RHFTextField name="shippingAddress.phone" label="Số điện thoại" type="number"/>
             </Stack>
-            <RHFTextField name="shippingAddress.fullAddress" label="Full Address" />
-            <RHFTextField name="shippingAddress.fullAddress2" label="Full Address2" />
+            <RHFTextField name="shippingAddress.fullAddress" label="Địa chỉ 1" />
+            <RHFTextField name="shippingAddress.fullAddress2" label="Địa chỉ 2" />
           </Stack>
         </Collapse>
       </div>

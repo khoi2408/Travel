@@ -13,12 +13,12 @@ const PAYMENT_OPTIONS = [
   {
     label: 'Paypal',
     value: 'paypal',
-    description: 'You will be redirected to PayPal website to complete your purchase securely.',
+    description: 'Bạn sẽ được chuyển hướng đến trang web PayPal để hoàn tất giao dịch mua của mình một cách an toàn.',
   },
   {
     label: 'Credit / Debit',
     value: 'creditcard',
-    description: 'We support Mastercard, Visa, Discover and Stripe.',
+    description: 'Chúng tôi hỗ trợ Mastercard, Visa, Discover và Stripe.',
   },
 ];
 
@@ -132,20 +132,20 @@ function NewCardForm() {
     <Stack spacing={2.5} sx={{ px: 3, pb: 3 }}>
       <RHFTextField
         name="paymentMethods.card.cardNumber"
-        label="Card Number"
+        label="Số thẻ"
         placeholder="XXXX XXXX XXXX XXXX"
       />
 
       <RHFTextField
         name="paymentMethods.card.cardHolder"
-        label="Card Holder"
-        placeholder="JOHN DOE"
+        label="Tên chủ thẻ"
+        placeholder="LE MINH KHOI"
       />
 
       <Stack spacing={2} direction="row">
         <RHFTextField
           name="paymentMethods.card.expirationDate"
-          label="Expiration Date"
+          label="Ngày hết hạn"
           placeholder="MM/YY"
         />
         <RHFTextField name="paymentMethods.card.ccv" label="CVV/CVC" placeholder="***" />

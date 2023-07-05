@@ -29,7 +29,7 @@ export default function TravelTourListSimilar({ tours }: Props) {
       color="inherit"
       endIcon={<Iconify icon="carbon:chevron-right" />}
     >
-      View All
+      Xem thêm
     </Button>
   );
 
@@ -48,7 +48,7 @@ export default function TravelTourListSimilar({ tours }: Props) {
             mb: { xs: 8, md: 10 },
           }}
         >
-          <Typography variant="h3">You Might Like</Typography>
+          <Typography variant="h3">Bạn có thể thích</Typography>
 
           {isMdUp && viewAllBtn}
         </Stack>

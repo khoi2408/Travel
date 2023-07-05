@@ -6,7 +6,7 @@ import { Typography, TextField, Stack } from '@mui/material';
 export default function PaymentBillingAddress() {
   return (
     <div>
-      <Typography variant="h5">Billing Address</Typography>
+      <Typography variant="h5">ĐỊA CHỈ THANH TOÁN</Typography>
 
       <Stack spacing={2.5} mt={5}>
         <TextField fullWidth label="Person name" />

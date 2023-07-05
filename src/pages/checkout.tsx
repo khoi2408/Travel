@@ -15,7 +15,7 @@ export default function TravelCheckoutPage() {
   return (
     <>
       <Head>
-        <title>Checkout | ZONE UI</title>
+        <title>Đặt Tour | WinG</title>
       </Head>
 
       <TravelCheckoutView />

@@ -15,7 +15,7 @@ export default function TravelTourPage() {
   return (
     <>
       <Head>
-        <title>Italian Delights - 12 Days | ZONE UI</title>
+        <title>Gành Đá Đĩa - Hành trình khám phá đất Phú | WinG</title>
       </Head>
 
       <TravelTourView />

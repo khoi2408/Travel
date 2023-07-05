@@ -15,7 +15,7 @@ export default function TravelToursPage() {
   return (
     <>
       <Head>
-        <title>Tours | ZONE UI</title>
+        <title>Danh sách các Tour Phú Yên | WinG</title>
       </Head>
 
       <TravelToursView />

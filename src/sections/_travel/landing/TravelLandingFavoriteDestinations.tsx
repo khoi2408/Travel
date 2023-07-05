@@ -114,7 +114,7 @@ type DestinationItemProps = {
 function DestinationItem({ tour, order }: DestinationItemProps) {
   const isMdUp = useResponsive('up', 'md');
 
-  const { location, continent, coverImg } = tour;
+  const { location, coverImg } = tour;
 
   return (
     <Box
@@ -151,7 +151,7 @@ function DestinationItem({ tour, order }: DestinationItemProps) {
         <Stack direction="row" alignItems="center">
           <Iconify icon="carbon:location" sx={{ mr: 1, color: 'primary.main' }} />
           <TextMaxLine variant="body2" line={1} sx={{ opacity: 0.72 }}>
-            {continent}
+            Phú Yên, Việt Nam
           </TextMaxLine>
         </Stack>
       </Stack>

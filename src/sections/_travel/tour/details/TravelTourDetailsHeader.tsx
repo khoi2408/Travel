@@ -94,7 +94,7 @@ export default function TravelTourDetailsHeader({ tour }: Props) {
           <Avatar src={tourGuide?.picture} sx={{ width: 24, height: 24 }} />
 
           <Typography variant="body2" sx={{ color: 'text.secondary', mx: 0.5 }}>
-            Tour guide by
+            Hướng dẫn viên
           </Typography>
 
           <Link variant="subtitle2" color="inherit">
@@ -116,7 +116,7 @@ export default function TravelTourDetailsHeader({ tour }: Props) {
         {_socials.map((social) => (
           <MenuItem key={social.value} onClick={handleClose} sx={{ typography: 'body2' }}>
             <Iconify icon={social.icon} width={24} sx={{ mr: 1, color: social.color }} />
-            Share via {social.label}
+            Chia sẻ qua {social.label}
           </MenuItem>
         ))}
       </Popover>
