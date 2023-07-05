@@ -2,6 +2,7 @@
 import { useRouter } from 'next/router';
 // @mui
 import {
+  Box,
   Button, Container, Stack, StackProps, Typography
 } from '@mui/material';
 import { alpha, styled } from '@mui/material/styles';
@@ -46,7 +47,6 @@ export default function Footer() {
   const simpleFooter = (
     <Container sx={{ py: 8, textAlign: 'center' }}>
       <Logo single />
-
       <Typography variant="caption" component="div" sx={{ color: 'text.secondary' }}>
         © 2023. All rights reserved
       </Typography>

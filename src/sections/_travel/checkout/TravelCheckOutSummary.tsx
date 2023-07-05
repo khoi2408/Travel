@@ -165,7 +165,7 @@ export default function TravelCheckOutSummary({
 
       <Stack spacing={3} sx={{ p: 3 }}>
         <Stack spacing={1} direction="row" alignItems="center" justifyContent="space-between">
-          <Typography variant="h5">Total</Typography>
+          <Typography variant="h5">Tổng</Typography>
           <Typography variant="h5">{fCurrency(price)}</Typography>
         </Stack>
 

@@ -184,7 +184,7 @@ function CarouselItem({ tour }: CarouselItemProps) {
 
           <Stack direction="row" alignItems="center" sx={{ typography: 'subtitle2' }}>
             <Iconify icon="carbon:currency" width={24} sx={{ mr: 1, color: 'primary.main' }} />
-            {`Starting at ${fCurrency(price)}`}
+            {`Bắt đầu với ${fCurrency(price)}`}
           </Stack>
         </Stack>
 
@@ -259,7 +259,7 @@ function ThumbnailItem({ tour, isSelected }: ThumbnailItemProps) {
         <Stack direction="row" alignItems="center">
           <Iconify icon="carbon:location" sx={{ mr: 1, color: 'primary.main' }} />
           <TextMaxLine variant="caption" line={1} sx={{ opacity: 0.48 }}>
-            {continent}
+            Phú Yên
           </TextMaxLine>
         </Stack>
       </Stack>

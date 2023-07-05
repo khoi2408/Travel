@@ -121,7 +121,7 @@ export default function TravelTourDetailsReserveForm({ tour }: Props) {
 
       <Stack spacing={3} sx={{ p: 3 }}>
         <Stack spacing={1} direction="row" alignItems="center" justifyContent="space-between">
-          <Typography variant="h5">Tổng cộng</Typography>
+          <Typography variant="h5">Tổng</Typography>
           <Typography variant="h5">{fCurrency(priceSale)}</Typography>
         </Stack>
 

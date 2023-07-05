@@ -117,7 +117,7 @@ function TourItem({ tour }: TourItemProps) {
             </TextMaxLine>
 
             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-              16 Địa điểm
+              Phú Yên
             </Typography>
           </Stack>
         </Stack>
