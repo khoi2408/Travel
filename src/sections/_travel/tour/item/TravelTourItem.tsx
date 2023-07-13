@@ -61,7 +61,7 @@ export default function TravelTourItem({ tour }: Props) {
               {fCurrency(priceSale)}
             </Box>
           )}
-          {fCurrency(price)}
+          {/* {fCurrency(price - priceSale)} */}
         </Stack>
 
         <Checkbox
@@ -86,6 +86,11 @@ export default function TravelTourItem({ tour }: Props) {
             {slug}
           </TextMaxLine>
         </Link>
+
+        <Typography variant="h6" sx={{ color: '#444', display: 'flex', justifyContent: 'end', pt: 1 }}>
+          {fCurrency(price - priceSale)}
+        </Typography>
+        
       </Stack>
 
       <Divider sx={{ borderStyle: 'dashed' }} />

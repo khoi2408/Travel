@@ -157,7 +157,7 @@ function NewCardForm() {
         sx={{ typography: 'caption', color: 'text.disabled' }}
       >
         <Iconify icon="carbon:locked" sx={{ mr: 0.5 }} />
-        Your transaction is secured with SSL encryption
+        Giao dịch của bạn được bảo mật bằng mã hóa SSL
       </Stack>
     </Stack>
   );

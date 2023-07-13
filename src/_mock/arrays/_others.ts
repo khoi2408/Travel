@@ -62,7 +62,7 @@ const LAT_LONG = [
   [20.96, 26.27],
 ];
 
-export const _offices = ['Jordan', 'Canada', 'Portugal'].map((office, index) => ({
+export const _offices = ['Bãi môn', 'Đầm Ô Loan', 'Vịnh Vũng Rô'].map((office, index) => ({
   id: _mock.id(index),
   country: office,
   address: _mock.address.fullAddress(index),

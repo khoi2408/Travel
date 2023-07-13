@@ -30,7 +30,7 @@ export default function TravelOrderCompletedSummary() {
 
       <LineItem icon="carbon:calendar" label="Ngày đặt" value={fDate(new Date())} />
 
-      <LineItem icon="carbon:receipt" label="Tổng" value={fCurrency(1112)} />
+      <LineItem icon="carbon:receipt" label="Tổng" value={fCurrency(4990000)} />
 
       <LineItem icon="carbon:purchase" label="Phương thức thanh toán" value="Paypal" />
     </Stack>

@@ -3,7 +3,7 @@ import { useRef, useEffect, useState } from 'react';
 import { alpha, styled, useTheme } from '@mui/material/styles';
 import { Stack, Typography, Button, Avatar, Box } from '@mui/material';
 // utils
-import { fCurrency } from 'src/utils/formatNumber';
+import { fCurrency, fShortenNumber } from 'src/utils/formatNumber';
 import { bgGradient, bgBlur } from 'src/utils/cssStyles';
 // hooks
 import useResponsive from 'src/hooks/useResponsive';
@@ -184,7 +184,7 @@ function CarouselItem({ tour }: CarouselItemProps) {
 
           <Stack direction="row" alignItems="center" sx={{ typography: 'subtitle2' }}>
             <Iconify icon="carbon:currency" width={24} sx={{ mr: 1, color: 'primary.main' }} />
-            {`Bắt đầu với ${fCurrency(price)}`}
+            {`Bắt đầu với ${fShortenNumber(price)} VNĐ`}
           </Stack>
         </Stack>
 
