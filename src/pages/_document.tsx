@@ -35,7 +35,7 @@ const Meta = () => (
     <meta name="theme-color" content={palette('light').primary.main} />
     <meta
       name="description"
-      content="The ZONE is built on top of MUI, a powerful library that provides flexible, customizable, and easy-to-use components."
+      content=""
     />
     <meta name="keywords" content="react,material,kit,application,landing & corporate,template" />
     <meta name="author" content="ZONE UI Kit" />
